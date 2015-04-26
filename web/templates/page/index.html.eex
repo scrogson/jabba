@@ -1,0 +1,9 @@
+<div class="jumbotron">
+  <h2>ejabberd Users</h2>
+  <p class="lead">Phoenix is an Elixir Web Framework targeting full-featured, fault tolerant applications with realtime functionality.</p>
+  <ul>
+    <%= for user <- @users do %>
+    <li><%= user %></li>
+    <% end %>
+  </ul>
+</div>
